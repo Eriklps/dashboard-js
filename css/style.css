@@ -17,11 +17,11 @@
     --color-dark-2:#677483;
     --color-background: #F6F6F9;
 
-    --cartao-borda: 2rem;
+    --card-border: 2rem;
     --border-1:0.4rem;
     --border-2:0.8rem;
     --border-3:1.2rem;
-    --cartao-padding: 1.8rem;
+    --card-padding: 1.8rem;
     --padding1: 1.2rem;
     --shadow: 0 2rem 3rem var(--color-light)
 
@@ -264,8 +264,8 @@ main .reports{
 
 main .reports > div{
     background-color: var(--color-card);
-    padding: var(--cartao-padding);
-    border-radius: var(--cartao-borda);
+    padding: var(--card-padding);
+    border-radius: var(--card-border);
     margin-top: 1.3rem;
     box-shadow: var(--shadow);
     transition: all 300ms ease;
@@ -364,8 +364,8 @@ main .last-orders{
 main .last-orders table{
     background-color: var(--color-card);
     width: 100%;
-    border-radius: var(--cartao-borda);
-    padding: var(--cartao-padding);
+    border-radius: var(--card-border);
+    padding: var(--card-padding);
     text-align: center;
     box-shadow: var(--shadow);
     transition: all 300ms ease;
@@ -444,8 +444,8 @@ main .last-orders a{
 
 .right .recent-updates .updates{
     background-color: var(--color-card);
-    padding: var(--cartao-padding);
-    border-radius: var(--cartao-borda);
+    padding: var(--card-padding);
+    border-radius: var(--card-border);
     box-shadow: var(--shadow);
     transition: all 300ms ease;
 }
@@ -475,7 +475,7 @@ main .last-orders a{
     align-items: center;
     gap: 1rem;
     margin-bottom: 0.7rem;
-    padding: 1.4rem var(--cartao-padding);
+    padding: 1.4rem var(--card-padding);
     border-radius: var(--border-3);
     box-shadow: var(--shadow);
     transition: all 300ms ease;
@@ -600,7 +600,7 @@ main .last-orders a{
     z-index: 3;
     box-shadow: 1rem 3rem 4rem var(--color-light);
     height: 100vh;
-    padding-right: var(--cartao-padding);
+    padding-right: var(--card-padding);
     display: none;
     animation: showMenu 400ms ease forwards;
     }
