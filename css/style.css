@@ -325,18 +325,18 @@ main .reports svg circle{
 }
 
 main .reports .sales svg circle{
-    stroke-dasharray: 200;
-    stroke-dashoffset: -55;
+    stroke-dasharray: 183;
+    stroke-dashoffset: 20;
 }
 
 main .reports .spent svg circle{
-    stroke-dasharray: 80;
+    stroke-dasharray: 167;
     stroke-dashoffset: 20;
 }
 
 main .reports .revenue svg circle{
-    stroke-dasharray: 110;
-    stroke-dashoffset: 35;
+    stroke-dasharray: 144;
+    stroke-dashoffset: 20;
 }
 
 main .reports .progress .number{
