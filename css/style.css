@@ -5,7 +5,7 @@
     /* Light Theme */
 
     --color-primary: #7380EC;
-    --color-danger: #FF7782;
+    --color-alert: #FF7782;
     --color-success: #41f1b6;
     --color-attention: #FFBB55;
     --color-card:#FFF;
@@ -129,8 +129,8 @@ b{
     color: var(--color-primary);
 }
 
-.danger{
-    color: var(--color-danger);
+.alert{
+    color: var(--color-alert);
 }
 
 .success{
@@ -230,7 +230,7 @@ aside .sidebar a:hover span{
 }
 
 aside .sidebar .cont-msg{
-    background-color: var(--color-danger);
+    background-color: var(--color-alert);
     color:var(--color-card) ;
     padding: 2px 10px;
     font-size: 11px;
@@ -284,7 +284,7 @@ main .reports > div span{
 }
 
 main .reports > div.spent span{
-    background-color: var(--color-danger);
+    background-color: var(--color-alert);
 
 }
 
@@ -502,7 +502,7 @@ main .last-orders a{
 }
 
 .right .sales-analysis .item.offline .icon{
-    background-color: var(--color-danger);
+    background-color: var(--color-alert);
 }
 
 .right .sales-analysis .item.client .icon{
